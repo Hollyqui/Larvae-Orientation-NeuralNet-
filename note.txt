@@ -1,0 +1,7 @@
+So this is the last version I have. 
+You can run it in unity and it will save your results in a database called "data".
+I ran it until generation 300 and it was all fine so I guess that works.
+Now the problem is you need a few files in the plugin folder for it to work and since I use unity 64bit, I need the 64bit version of that file.
+But if I compile it, it compiles it for 32bit systems (idk why, theres probably a place where you can set this, I will fix that tomorrow or maybe you can today).
+The 64bit version of the file is in the unity project right now (Assets\Plugins\SQLite\x64) and I sent you both folders with the files in the zip archive (x64 for 64bit and x86 for 32bit as you might guess). You usually should be able to just drag both folders inside the SQLite folder but apparently unity then gets confused which one to use/complains about 2 files with the same name. I didn't try renaming the files but they might not work if you do, at least I think they won't, but if you want to try it out: go for it.
+If I got time on friday, I will write some python scripts to analize the data, I can send you them too if you want 'cause reading and evaluating .db files can be somewhat of a drag. I used the program "DB Browser for SQLite" to read the database file, but as I said, I'll probably write some tools to maka analyzing easier.
